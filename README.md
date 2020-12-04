@@ -10,7 +10,7 @@
     <li><b><a href="#general-information">General information</a></b></li>
     <li><b><a href="#used-parts--components">Used parts and components</a></b></li>
     <li><b><a href="#circuit-diagram">Circuit diagram</a></b></li>
-    <li><b>License</b></li>
+    <li><b><a href="#license">License</a></b></li>
 </ul>
 <hr />
 <h3>Credits</h2>
