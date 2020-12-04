@@ -68,3 +68,11 @@ R<sub>RESISTOR</sub> = ( U<sub>OUT</sub> - U<sub>LED</sub> ) / I<sub>MAX</sub><b
 <p><b>Other components. </b><a href="https://en.wikipedia.org/wiki/Perfboard">Perforated boards, </a><a href="https://en.wikipedia.org/wiki/Jump_wire">dupon cables, </a><a href="https://en.wikipedia.org/wiki/Hot-melt_adhesive">hot glue </a>and some basic electronic tools.</p>
 <hr />
 <h3>Circuit diagram</h3>
+<p align="center">
+    <img src="https://github.com/itsDkiller/CO2-Sensor/blob/master/media/circuit.PNG" width="900" height="600" title="Final product">
+</p>
+<p><b>Notes.</b> If your piezo buzzer has a nominal current flow that is higher then the digital pin I<sub>OUT</sub>, you need to limit the current with a resistor.<br />
+Also, this circuit diagram was made using <a href="https://de.wikipedia.org/wiki/Microsoft_Paint">Microsoft Paint</a> and <a href="https://www.microsoft.com/de-de/microsoft-365/excel">Microsoft Excel.</a> Again, please don't hit me.</p>
+<hr />
+<h3>License</h3>
+<p>This repository is covered by the <a href="https://github.com/itsDkiller/CO2-Sensor/blob/master/LICENSE">GNU General Public License 3</a>.</p>
