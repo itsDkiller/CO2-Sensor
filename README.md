@@ -9,7 +9,7 @@
     <li><b><a href="#credits">Credits</a></b></li>
     <li><b><a href="#general-information">General information</a></b></li>
     <li><b><a href="#used-parts--components">Used parts and components</a></b></li>
-    <li><b>Circuit diagram</b></li>
+    <li><b><a href="#circuit-diagram">Circuit diagram</a></b></li>
     <li><b>License</b></li>
 </ul>
 <hr />
@@ -30,3 +30,41 @@ Please note that the ESP8266 only serves 3,3 Volts on its power pins. As the MHZ
 <br /><b>Note that you can't power this circuit via your PCs USB port.</b> Because of.. high power consumption thingy..</p>
 <hr />
 <h3>Used parts & components</h3>
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Documentation</th>
+    </tr>
+    <tr>
+        <td>Microcontroller</td>
+        <td>ESP8266 NodeMCU</td>
+        <td>Controlls the circuit via software</td>
+        <td><a href="https://arduino-esp8266.readthedocs.io/en/latest/">Link</a></td>
+    </tr>
+    <tr>
+        <td>Display</td>
+        <td>LCD I2C 128x64p NoName</td>
+        <td>Displays messages while operating</td>
+        <td><a href="https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/">Link</a></td>
+    </tr>
+    <tr>
+        <td>Siren</td>
+        <td>3,3-5V Piezo Buzzer</td>
+        <td>Honks when you have to ventilate</td>
+        <td><a href="https://www.puiaudio.com/media/SpecSheet/AI-3035-TWT-3V-R.pdf">Link</a></td>
+    </tr>
+    <tr>
+        <td>CO2-Sensor</td>
+        <td>MHZ-19B</td>
+        <td>Measures the current CO2 on a spot</td>
+        <td><a href="https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19b-co2-ver1_0.pdf">Link</a></td>
+    </tr>
+</table>
+<p><b>LEDs.</b> When using LEDs in circuits, always be sure to calculate the current limiting resistor properly.<br />
+R<sub>RESISTOR</sub> = ( U<sub>OUT</sub> - U<sub>LED</sub> ) / I<sub>MAX</sub><br />U<sub>OUT</sub> = 3,3V<br />U<sub>LED</sub> ≈ 2V (Insert the nominal voltage of your LED)<br />I<sub>MAX</sub> = 10mA</p>
+<br />
+<p><b>Other components. </b><a href="https://en.wikipedia.org/wiki/Perfboard">Perforated boards, </a><a href="https://en.wikipedia.org/wiki/Jump_wire">dupon cables, </a><a href="https://en.wikipedia.org/wiki/Hot-melt_adhesive">hot glue </a>and some basic electronic tools.</p>
+<hr />
+<h3>Circuit diagram</h3>
